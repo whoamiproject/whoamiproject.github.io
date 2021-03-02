@@ -14,8 +14,15 @@ page_sections:
       - link: "#point-3"
         link_text: Point-3
   - template: hero-banner-w-image
-    block: hero-2
-    background_image: "./uploads/background-gif.gif"
+    block: hero-3
+    background_image: "./uploads/gradient-background-2.png"
+    headline1: <b>What You Present</b>
+    content1: is important but
+    headline2: <b>How You Present</b>
+    content2: is more important
+    image:
+      image: "./uploads/instagram-image-rounded-shadow-transparent.png"
+      alt_text: "Someone's Instagram Page"
   - template: content-feature
     block: feature-1
     media_alignment: Left
