@@ -1,0 +1,19 @@
+<section class="block block-hero-2"
+{% if section.background_image %}
+style="background-image: url('{{ section.background_image | relative_url }}')"
+{% endif %}>
+  <div class="container">
+    <br>
+      <h1 align="center"><span class="light">{{ section.headline1 }}</span></h1>
+    </br>
+    <br>
+      <h2 align="center"><span align="center" class="light">{{ section.content1 }}</span></h2>
+    </br>
+    <br>
+      <h1 align="center"><span align="center" class="light">{{ section.headline2 }}</span></h1>
+    </br>
+    <br>
+      <h2 align="center"><span align="center" class="light">{{ section.content2 }}</span></h2>
+    </br>
+  </div>
+</section>

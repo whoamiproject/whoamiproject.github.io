@@ -1,0 +1,21 @@
+{% if section.media_alignment and section.media_alignment == "Left" %}
+{% include block-feature-2.html %}
+{% else %}
+<section id="{{ section.slug | slugify }}" class="block block-feature-1">
+  <div class="container">
+    <h1 align="center">
+      <span class="light">{{ section.title }}</span>
+    </h1>
+    <br></br><br></br>
+    <div class="columns">
+      <div class="column text">
+        <h2><span class="light">{{ section.headline }}</span></h2>
+        <p>{{ section.content }}</p>
+      </div>
+      <div class="column media">
+        <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
