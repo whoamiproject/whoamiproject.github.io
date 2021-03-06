@@ -62,7 +62,11 @@ page_sections:
     media:
       image: "./uploads/step-3-small.jpg"
       alt_text: Fluorescent Gradient image
+  - template: join-email-list
+    block: cta-bar
+    content: Notify me when whoami becomes available!
+    email_recipient: f/xnqokkrj
   - template: simple-footer
     block: footer-1
-    content: Made with ❤︎ in Busan
+    content: Made with ♥ in Busan, South Korea
 ---
