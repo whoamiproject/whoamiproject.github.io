@@ -11,6 +11,8 @@ page_sections:
         link_text: Features
       - link: "#steps"
         link_text: Steps
+      - link: "#mailing-list"
+        link_text: Notify me when available!
   - template: hero-banner
     block: hero-4
     headline1: What You Present
@@ -62,9 +64,25 @@ page_sections:
     media:
       image: "./uploads/step-3-small.jpg"
       alt_text: Fluorescent Gradient image
+  - template: currently-support-block
+    block: media-3
+    headline: Currently supporting
+    tagline: ... and more
+    images:
+      - link: "./uploads/youtube-bw.png"
+        title: YouTube
+      - link: "./uploads/instagram-bw.png"
+        title: Instagram
+      - link: "./uploads/spotify-bw.png"
+        title: Spotify
+      - link: "./uploads/medium-bw.png"
+        title: Medium
+      - link: "./uploads/facebook-bw.png"
+        title: Facebook
   - template: join-email-list
     block: cta-bar
-    content: Notify me when whoami becomes available!
+    slug: mailing-list
+    content: Sign up to be notified when we go live!
     email_recipient: f/xnqokkrj
   - template: simple-footer
     block: footer-1

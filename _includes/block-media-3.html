@@ -1,0 +1,24 @@
+<section id="{{ section.slug | slugify }}" class="block block-five-column-media">
+  <div class="container">
+    <h2 align="center" style="color: #666">
+      <span class="light">{{ section.headline }}</span>
+    </h2>
+    <br></br><br></br>
+    <div class="columns">
+      {% for image in section.images %}
+      <div class="column">
+        <figure>
+          <img src="{{ image.link | relative_url }}"
+               title="{{ image.title }}"
+               loading="lazy"
+               style="width: 80%">
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
+    <br></br><br></br>
+    <h3 align="center" style="color: #666">
+      <span class="light">{{ section.tagline }}</span>
+    </h3>
+  </div>
+</section>
